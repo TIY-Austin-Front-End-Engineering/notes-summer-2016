@@ -2,6 +2,8 @@
 
 # Welcome to TIY Austin Front-End Engineering Summer 2016!
 
+This repository will be used for daily lecture notes and in class code examples. Please make sure to star it so that you can find it easily. More polished notes and your daily assignments can be found in [TIYO](https://online.theironyard.com/), so make sure you also bookmark that!
+
 ### Instructor Contact Info
 
 **Jess Scheuring**
