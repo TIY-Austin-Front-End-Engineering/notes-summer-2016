@@ -51,6 +51,10 @@
 - Cascading Style Sheets
 - rules "cascade" down the html tree
 - the style of your html page
+- link into html with a link tag:
+```html
+<link rel="stylesheet" href="main.css" media="screen"/>
+```
 
 #### anatomy of a css ruleset:
 ```css
