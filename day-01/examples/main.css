@@ -1,0 +1,25 @@
+
+body {
+  color: blue;
+}
+
+p {
+  color: red;
+}
+
+div.highlight {
+  background: pink;
+  color: orange;
+}
+
+#fancy {
+  color: dodgerblue;
+}
+
+footer p {
+  color: turquoise;
+}
+
+footer > p {
+  text-decoration: line-through;
+}
