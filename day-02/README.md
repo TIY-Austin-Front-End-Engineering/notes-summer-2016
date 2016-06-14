@@ -102,7 +102,7 @@
   - `float: <left or right>`
     - moves the applied element OUT OF FLOW OF page
     - element now allows other elements to touch it
-    - will move itself up and to the <left or right> as far as possible while still respecting other elements KNOWN widths and heights
+    - will move itself up and to the `<left or right>` as far as possible while still respecting other elements KNOWN widths and heights
     - parents of floated children DON'T KNOW where their children are!
       - to fix this use the clearfix hack:
       ```css
