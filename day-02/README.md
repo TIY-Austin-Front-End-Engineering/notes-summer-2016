@@ -82,6 +82,7 @@
   - padding - the space between border and content, has the background color of the element itself
   - border - the border of an element, short hand property with style, size, color. you can also alter border-radius.
   - margin - the space outside an elements border that other elements may not touch. pushes an element away from siblings or parents.
+  - box-sizing: property that determines what height and width properties are modifying. defaults to content-box, but is usually preferable to reassign to border-box
 
 ### Css centering
   - block
