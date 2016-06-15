@@ -1,0 +1,24 @@
+input {
+  border: 0;
+  background: red;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 5px;
+}
+
+input:hover {
+  background: #9b1a1a;
+}
+
+p:first-line {
+  font-size: 20px;
+}
+
+p:first-of-type {
+  color: blue;
+}
+
+/*this rule won't grab any p's on the page bc they are not first children*/
+p:first-child {
+  background: turquoise;
+}

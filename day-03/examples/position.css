@@ -1,0 +1,40 @@
+body {
+  height: 3000px;
+  background: url('http://fillmurray.com/200/200');
+}
+
+.static {
+  background: red;
+}
+
+.fixed {
+  background: pink;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  /*bottom: 50px;*/
+  left: 50px;
+}
+
+.relative {
+  background: turquoise;
+  position: relative;
+  /*right: 70px;*/
+  left: 10px;
+  top: 10px;
+  /*bottom: 70px;*/
+}
+
+.absolute {
+  background: dodgerblue;
+  position: absolute;
+  right: 13px;
+  bottom: 50%;
+}
+
+.container {
+  position: relative;
+  height: 280px;
+  width: 50%;
+  background: orange;
+}
