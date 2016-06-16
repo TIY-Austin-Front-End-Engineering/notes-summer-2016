@@ -1,0 +1,20 @@
+input[type="button"] {
+  background-color: #75C7D2;
+  border: 0;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 15px;
+  box-shadow: 0 5px #61A9B2;
+}
+
+input[type="button"]:active {
+  ouline: 0;
+  box-shadow: 0 2px #61A9B2;
+  /*margin-top: 3px;*/
+  position: relative;
+  top: 3px;
+}
+
+input[type="button"]:focus {
+  outline: 0;
+}

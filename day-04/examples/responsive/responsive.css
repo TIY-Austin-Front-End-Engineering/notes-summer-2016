@@ -1,0 +1,38 @@
+div {
+  background: pink;
+  border-left: 1px solid blue;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  max-width: 380px;
+}
+
+section {
+  margin: 0 auto;
+  width: 1520px;
+  max-width: 100%;
+}
+
+div img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  div {
+    width: 50%;
+  }
+
+  section {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div {
+    width: 100%;
+  }
+
+  section {
+    width: 380px;
+  }
+}
