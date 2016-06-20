@@ -32,7 +32,7 @@ If you finish, try to make sub-levels!
 
 #### nesting
   - the descendent selector (a ` ` space character) can be replaced with nested rules. example:
-  ```scss
+  ```
     .dropdown-menu {
       a {
         text-decoration: none;
@@ -44,7 +44,7 @@ If you finish, try to make sub-levels!
   - nesting rules compile into plain css, making more specific rules
   - aim to nest no more than 4 levels deep, ever!
   - use the `&` for parent selector (used for pseudo selectors etc)
-  ```scss
+  ```
   .dropdown-menu {
     a {
       text-decoration: none;
@@ -64,28 +64,28 @@ If you finish, try to make sub-levels!
 #### mixins
   - used to store repeated **rule sets**
   - defined like so:
-  ```scss
+  ```
   @mixin nameOfMixin {
     property: value;
     other-property: otherValue;
   }
   ```
   - used like so:
-  ```scss
+  ```
   body {
     @include nameOfMixin;
   }
   ```
   - mixins can have arguments
     - defined like so:
-    ```scss
+    ```sass
     @mixin nameOfMixin($someSpecifiedValue) {
       property: value;
       other-property: $someSpecifiedValue;
     }
     ```  
     - used like so:
-    ```scss
+    ```
     body {
       @include nameOfMixin(50px);
     }
