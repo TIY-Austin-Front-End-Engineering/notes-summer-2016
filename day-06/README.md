@@ -33,7 +33,7 @@ If you finish, try to make sub-levels!
 #### nesting
   - the descendent selector (a ` ` space character) can be replaced with nested rules. example:
 
-  ```
+  ```sass
     .dropdown-menu {
       a {
         text-decoration: none;
@@ -47,7 +47,7 @@ If you finish, try to make sub-levels!
   - aim to nest no more than 4 levels deep, ever!
   - use the `&` for parent selector (used for pseudo selectors etc)
 
-  ```
+  ```sass
   .dropdown-menu {
     a {
       text-decoration: none;
@@ -68,7 +68,7 @@ If you finish, try to make sub-levels!
   - used to store repeated **rule sets**
   - defined like so:
 
-  ```
+  ```sass
   @mixin nameOfMixin {
     property: value;
     other-property: otherValue;
@@ -77,7 +77,7 @@ If you finish, try to make sub-levels!
 
   - used like so:
 
-  ```
+  ```sass
   body {
     @include nameOfMixin;
   }
@@ -95,7 +95,7 @@ If you finish, try to make sub-levels!
 
     - used like so:
 
-    ```
+    ```sass
     body {
       @include nameOfMixin(50px);
     }
