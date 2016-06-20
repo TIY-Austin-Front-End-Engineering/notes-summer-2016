@@ -1,4 +1,4 @@
-var partners = [
+var students = [
   'Mark',
   'Shannon',
   'Caryn',
@@ -16,55 +16,34 @@ var partners = [
   'Haley'
 ];
 
-function selectPairs(list) {
-  var pairs = [];
+function makeGroups(list, number) {
+  var groups = [];
   while (list.length) {
-    if (list.length === 1) {
-      pairs[pairs.length - 1].push(list[0]);
-      list = [];
-    } else {
-      var num1 = getNum(list.length);
-      var student1 = list[num1];
-      list = list.slice(0, num1).concat(list.slice(num1+1));
-      var num2 = getNum(list.length);
-      var student2 = list[num2];
-      list = list.slice(0, num2).concat(list.slice(num2+1));
-      pairs.push([student1, student2])
-    }
-  }
-  return pairs;
-}
-
-function selectTriplets(list) {
-  var pairs = [];
-  while (list.length) {
-    if (list.length < 3) {
+    if (list.length < number) {
       list.forEach(function(student, i) {
-        pairs[pairs.length - (i+1)].push(student);
+        groups[groups.length - (i+1)].push(student);
       });
       list = [];
     } else {
-      var num1 = getNum(list.length);
-      var student1 = list[num1];
-      list = list.slice(0, num1).concat(list.slice(num1+1));
-      var num2 = getNum(list.length);
-      var student2 = list[num2];
-      list = list.slice(0, num2).concat(list.slice(num2+1));
-      var num3 = getNum(list.length);
-      var student3 = list[num3];
-      list = list.slice(0, num3).concat(list.slice(num3+1));
-      pairs.push([student1, student2, student3])
+      var students = [];
+      for (var i = 0; i < number; i++) {
+        var num = getNum(list.length);
+        var student = list[num];
+        list = list.slice(0, num).concat(list.slice(num+1));
+        students.push(student);
+      }
+      groups.push(students);
     }
   }
-  return pairs;
+  return groups;
 }
 
 function getNum(max) {
   return Math.floor(Math.random() * max);
 }
 
-if (process.argv[2] === '2') {
-  console.log(selectPairs(partners));
-} else if (process.argv[2] === '3') {
-  console.log(selectTriplets(partners));
+if (!process.argv[2]) {
+  console.log('use the following syntax: partners <number of students per group>');
+} else {
+  console.log(makeGroups(students, process.argv[2]));
 }

@@ -1,0 +1,9 @@
+@import "variables";
+@import "mixins";
+@import "header";
+
+body {
+  background: $color-background;
+  border: 1px solid black;
+  margin: 0;
+}

@@ -1,0 +1,5 @@
+@mixin center-block($width) {
+  display: block;
+  margin: 0 auto;
+  width: $width;
+}
