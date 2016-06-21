@@ -75,7 +75,9 @@
 ### github group project flow
   - one person in the group makes the repo and puts it on github
   - give your partners collaborator status on github
-  - work locally **on a feature branch**
+  - partners should clone the remote into a new project folder to start the project `git clone https://github.com/NicerHugs/supperClub.git .`
+  - work locally **on a feature branch**, commit after successful changes
+  - push my branch to the remote `git push origin <branch name>`
 
 ## Resources
 - [Bourbon Docs](http://bourbon.io/docs/)
