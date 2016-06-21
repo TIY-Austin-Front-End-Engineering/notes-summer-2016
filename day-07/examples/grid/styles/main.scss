@@ -1,0 +1,24 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+$gutterPercent: 2.35765%;
+
+.explore {
+  @include outer-container(rem(1000px));
+}
+
+div {
+  height: rem(340);
+  background-image: url("http://fillmurray.com/500/500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: $gutterPercent;
+  @include span-columns(4);
+
+  &:first-child {
+    @include span-columns(8);
+  }
+
+  &:nth-child(2) {
+    @include omega();
+  }
+}
