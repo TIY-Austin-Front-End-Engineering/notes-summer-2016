@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.explore {
+  max-width: 62.5rem;
+  margin-left: auto;
+  margin-right: auto; }
+  .explore::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+div {
+  height: 21.25rem;
+  background-image: url("http://fillmurray.com/500/500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2.35765%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  div:last-child {
+    margin-right: 0; }
+  div:first-child {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    div:first-child:last-child {
+      margin-right: 0; }
+  div:nth-child(2) {
+    margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
