@@ -70,15 +70,26 @@ This code is a test
         - `@include omega()` removes margin right from the last element in a grid layout so it fits in the row
 
 ### github branches
+![](../images/git-branching.jpg)
+  - branches represent a series of commits, a particular path through history
   - `git checkout -b <branch name>` (-b makes NEW branch)
+  - `git checkout <branch name>` (existing move to an existing branch)
+  - merge commits are special commits that marry two branches together. The branches can diverge again in the future.
 
 
 ### github group project flow
+![](../images/git-flow.jpg)
   - one person in the group makes the repo and puts it on github
   - give your partners collaborator status on github
-  - partners should clone the remote into a new project folder to start the project `git clone https://github.com/NicerHugs/supperClub.git .`
-  - work locally **on a feature branch**, commit after successful changes
-  - push my branch to the remote `git push origin <branch name>`
+  - partners should clone the remote into a new project folder to start the project `git clone <remote git address> <path/to/the/project/folder>.`
+  - for each feature: work locally **on a feature branch**, commit after successful changes
+  - push local branch to the remote branch `git push origin <branch name>`
+  - make a pull request to merge the remote branch into the remote master on github
+  - get your teammates to approve the code
+  - after the pull request is merged, everyone pulls origin master
+    - the writer of the newly merged code runs `git checkout master` and then `git pull origin master`, fix any merge conflicts, and add and commit the result.
+    - the other team members stay on their feature branches and run `git pull origin `, fix any merge conflicts, and add and commit the result.
+    
 
 ## Resources
 - [Bourbon Docs](http://bourbon.io/docs/)
