@@ -69,8 +69,13 @@
         - `@include omega()` removes margin right from the last element in a grid layout so it fits in the row
 
 ### github branches
+  - `git checkout -b <branch name>` (-b makes NEW branch)
+
 
 ### github group project flow
+  - one person in the group makes the repo and puts it on github
+  - give your partners collaborator status on github
+  - work locally **on a feature branch**
 
 ## Resources
 - [Bourbon Docs](http://bourbon.io/docs/)
