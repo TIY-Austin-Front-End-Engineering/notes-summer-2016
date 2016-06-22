@@ -107,7 +107,7 @@ Recreate this using only one block level element:
   ```
   - if we want to see an html element in its JS representation in our console, use this:
   ```js
-  console.log(document.querySelector('div'));
+  console.dir(document.querySelector('div'));
   ```
 
 ## Resources
