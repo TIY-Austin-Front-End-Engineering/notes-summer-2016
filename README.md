@@ -11,3 +11,4 @@
 ### Week 2: SASS and JS Introductions
 * [Day 06 - Sass setup, variables, nesting, mixins](/day-06)
 * [Day 07 - Grid systems, Sass libraries, Git Partner Flow](/day-07)
+* [Day 08 - JS Intro](/day-08)
