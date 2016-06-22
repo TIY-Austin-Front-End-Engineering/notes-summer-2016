@@ -98,5 +98,16 @@ Recreate this using only one block level element:
   ```
   - functions are blocks of code that do something.
   - we can give them names in order to use and reuse them
+- document
+  - the document object is the JS representation of our HTML document
+  - we can access the document with the `document` variable.
+  - we can access any elements in the document with the `querySelector` property like this:
+  ```js
+  document.querySelector('anyCssSelector')
+  ```
+  - if we want to see an html element in its JS representation in our console, use this:
+  ```js
+  console.log(document.querySelector('div'));
+  ```
 
 ## Resources
