@@ -11,10 +11,13 @@ This repository will be used for daily lecture notes and in class code examples.
 - github: [nicerhugs](http://github.com/nicerhugs)
 - blog: [nicerhugs.com](http://nicerhugs.com)
 
-### Campus Director Contact Info
+### Campus Director and Operations Manager Contact Info
 
 **Karly Borden**
 - email: karly@theironyard.com
+
+**Quincy Daniels**
+- email: quincy@theironyard.com
 
 ### Schedule
 
@@ -23,7 +26,7 @@ This repository will be used for daily lecture notes and in class code examples.
 
 ### Policies
 
-- Absences and timeliness - You can miss up to 4 lectures; after that, may not be eligible for graduation. I don't recommend missing any, as we will be moving very fast! This is to help with expectations: I show up, you show up, we all show up --- and kick ass! Also, please show up on time. We count 2 tardies as an absence. All I ask for is general respect of the crew and class so that we can learn without constant hiccups and interruptions!
+  - Absences and timeliness - You can miss up to 4 lectures; after that, you may not be eligible for graduation. I don't recommend missing any, as we will be moving very fast! This is to help with expectations: I show up, you show up, we all show up --- and kick ass! Also, please show up on time. We count 2 tardies as an absence. All I ask for is general respect of the crew and class so that we can learn without constant hiccups and interruptions!
 
 - Late or incomplete homework - Your homework is due **before 8am on the due date of the assignment**. After that, it is late. If you miss homework assignments, come talk to me, because I know problems and emergencies can happen. However, you will be required to make up for late/incomplete assignments, so don't fall behind! I would rather see a solid attempt on time than a complete assignment late. Solid attempts are not considered late!
 
