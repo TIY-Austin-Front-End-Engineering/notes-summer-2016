@@ -91,7 +91,14 @@
       ```
     - console
       - `console.log()`
+        - console is an object
+        - log is a method aka a property on an object that is also a function
+        - prints any and all arguments to the console
       - `console.assert()`
+        - way to test whether something is true
+        - takes 2 arguments, the first is a truth test, the second is an error message.
+        - the truth test can be ANYTHING, but it will be coerced into a boolean
+        - the error will print ONLY if the truth test fails. Otherwise you see nothing
     - window object
       - declaring global variables
 <!-- - updating the `window.location.hash` -->
