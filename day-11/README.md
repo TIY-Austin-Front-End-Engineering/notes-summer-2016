@@ -1,6 +1,6 @@
 [Table of Contents](/README.md)
 
-# Day 11 - Functions, String and Array props/methods, Basic Routing
+# Day 11 - Functions, Built in Objects/methods, value vs. reference
 
 ## Review
 - toolkit
@@ -89,6 +89,9 @@
       // random number between 1-10
       Math.ceil(Math.random()*10)
       ```
+    - console
+      - `console.log()`
+      - `console.assert()`
     - window object
       - declaring global variables
 <!-- - updating the `window.location.hash` -->
