@@ -8,7 +8,8 @@
   - array methods are plentiful, don't reinvent the wheel
 - true or false on a vowel
   - or ||  / and && character
-
+  - `||` will evaluate to the **first** truthy value it finds, or the last falsy value. `1 || 2` evaluates to`1`, which is truthy. `0 || 2` evaluates to `2` which is also truthy.
+  - `&&` will evaluate to the **last** truthy value it finds or the first falsy value. `1 && 2` evaluates to `2`, `0 && 2` evaluates to 0
 
 ## Notes
 - location.hash
@@ -49,19 +50,33 @@ data[userRequest].title;
   - loop over elements to add event Listeners
   - loop over elements to remove a class from each one
   - loop over elements to change their contents all at once
+- Callback methods  
+  - a function that is passed to another function as an argument is called a callback function
+  - callback functions always receive their arguments by their calling functions, not by us.
+  - we can only give names to those parameters, or leave them unnamed and ignore them.
+  - examples - click handlers, array methods:
 - Array methods! - the loop's more user friendly cousin!
-  - forEach
-  - filter
-    - returns an array always
-    - takes a function as its argument
-    - the argument function is called a callback
-    - callback functions always receive their arguments by their calling functions, not by us
-    - we can only give names to those parameters
+  - all 4 take a callback function as their argument
+  - the callback will be called for each item in the array. It receives each item in the array one at a time as its argument
+  - `.forEach()`
+    - does not return anything, only DOES STUFF aka has side effects
+    - useful for putting a list of things into the DOM, or console logging a bunch of things individually
+  - `.filter()`
+    - returns an array
+      - that array contains the same values as the original array, but potentially FEWER of them
     - in the callback we must return a truth test. that truth test determines what gets put into my new array
-  - map
+  - `.map()`
     - returns a new array
-    - it is the same length as the original array
-    - it's values are related to the original array, but different
-  - reduce
+      - it is the same length as the original array
+      - it's values are related to the original array, but different
+    - in the callback we return the value we want to be placed in the new array
+  - `.reduce()`
+    - the only one whose callback differs.
+    - returns a single item of our chosing - it could be an array, object, string, whatever
+    - we build that object over time by returning it from the callback function.
 
 ## Resources
+- [array.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/foreach)
+- [array.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+- [array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+- [array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
