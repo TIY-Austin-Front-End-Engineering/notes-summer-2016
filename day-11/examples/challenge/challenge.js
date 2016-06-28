@@ -6,9 +6,9 @@ var number = 0;
 // need to know when the button is clicked on
 button.addEventListener('click', function(){
   // add one to the number
-  // number = number + 1;
+  number = number + 1;
   // number += 1;
-  number++;
+  // number++;
   console.log(number);
   // change the displayed value on the button
   button.textContent = number + ' likes';

@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid turquoise;
+  padding: .5rem 1rem;
+  border-radius: .3rem;
+  color: teal;
+}
+
+a.active {
+  background: turquoise;
+}
