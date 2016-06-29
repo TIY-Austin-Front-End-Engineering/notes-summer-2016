@@ -17,3 +17,4 @@
 ### Week 3: JS data manipulation and jQuery
 * [Day 11 - Functions, Built in Objects/methods, value vs. reference](/day-11)
 * [Day 12 - location.hash, Loops, forEach, filter, map reduce](/day-12)
+* [Day 13 - forEach, filter, map, reduce, jquery](/day-13)
