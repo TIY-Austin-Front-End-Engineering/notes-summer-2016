@@ -38,15 +38,35 @@ HINT: you will need the special `arguments` keyword
   - include in project
     - include in a script tag pointing to the jquery cdn
   - select elements
-    - `$()`
+    - `$('cssSelector')`
+      - where `cssSelector` is any valid css selector
+      - will return a set of jQuery wrapped elements - all that match the selector
   - get vs set
-    - `.text()`, `.html()`
+    - `jQueryWrappedElements.text()`, `jQueryWrappedElements.html()`
+      - where `jQueryWrappedElements` is any set of elements selected with the jQuery selector (see above)
+      - used with no arguments, these functions return the `textContent` or `innerHTML` of the first element in the `jQueryWrappedElements` set.
+      - used with any string argument, these functions will replace `textContent` or `innerHTML` of ALL the elements in the set.
+      - with `.html('htmlString')` the `htmlString` will be parsed as HTML and element tags will be turned into elements
+      - with `.text('string')` the `string` will NOT be parsed as HTML, and element tags will be placed into the DOM exactly as they appear in the string
   - create an element
     - `$('actualHTMl')`
       - where `actualHTML` is a string of html to create
-  - `.append()`, `.prepend()`
-  - `.addClass()`, `.removeClass()`
+      - this element is created, but not stored OR put into the DOM
+      - to store it, put it in a variable.
+      - to put it in the DOM, use the `.html()` method above, or the `.append()` or `.prepend()` methods below:
+  - `.append(elementOrString)`, `.prepend(elementOrString)`
+    - where `elementOrString` is an HTML element, a jQuery wrapped element or set of elements, or a plain text string
+    - `elementOrString` will be parsed as HTML and added to the element on which the method is performed.
+    - `.prepend(elementOrString)` will add `elementOrString` as the **first** child of the element it is performed on
+    - `.append(elementOrString)` will add `elementOrString` as the **last** child of the element it is performed on
+  - `.addClass(className)`, `.removeClass(className)`
+    - where `className` is a string of the class to add or remove
+    - will add or remove the class from ALL elements in the jQuery set of elements at once.
   - `.on()`
-  - `.toggleClass()`
+    - the jQuery way of adding event listeners, nearly identical to `.addEventListener()`
+    - will apply to all elements in the jQuery set of elements, rather than only on one at a time
+  - `.toggleClass(className)`
+    - as the name implies, will toggle a class, so just like add or remove class, but if the class is there, it removes it, if the class is not there it will add it.
 
 ## Resources
+- [jQuery docs](http://jquery.com/)
