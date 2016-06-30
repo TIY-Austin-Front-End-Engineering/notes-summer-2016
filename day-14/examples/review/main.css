@@ -1,0 +1,19 @@
+ul {
+  height: 20px;
+  overflow: hidden;
+}
+
+ul.open {
+  height: auto;
+  transition: height .5s;
+  /*overflow: scroll;
+  position: relative;*/
+}
+
+/*li:first-child {
+  position: fixed;
+  background: pink;
+}
+li:nth-child(2) {
+  margin-top: 20px;
+}*/
