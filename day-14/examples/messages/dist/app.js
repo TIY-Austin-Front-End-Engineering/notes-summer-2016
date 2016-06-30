@@ -13,8 +13,9 @@ var data = [
   }
 ];
 
+// these variables are effectively "templates"
 var personLink = '<li><a href="#"></a></li>';
-var personMessages = '<div><h2>Person\'s Name</h2><ul><li>Message</li><li>Message</li><li>Message</li></ul></div>';
+var personMessages = '<div><h2>Person\'s Name</h2><ul></ul></div>';
 
 // listen to click events on the people-list
 // know who was clicked on so we can show their name and messages
