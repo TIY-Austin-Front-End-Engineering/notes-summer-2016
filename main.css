@@ -1,4 +1,7 @@
-body {
-  background: pink; }
+.people-list, .messages-area {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */
