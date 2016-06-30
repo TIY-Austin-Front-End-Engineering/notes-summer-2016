@@ -24,7 +24,9 @@ letterCount("hello world");
 
 ## Notes
 - gh-pages
-  github will serve files in a gh-pages branch
+  - github will serve files in a gh-pages branch
+  - `git subtree push --prefix dist origin gh-pages`
+  - pattern for finding the site live
 - data attribute
 - SPAs
   - document ready
