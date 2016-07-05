@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500);
+
+body, body * {
+  font-family: Ubuntu, sans-serif;
+}
+
+.response {
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+  color: #FFABAB;
+  font-size: 2em;
+}
+
+h3 {
+  text-align: center;
+  margin: 0 0 20px;
+  color: #4C4945;
+}
+
+form {
+  background: #FFF2E6;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 2em;
+  width: 315px;
+}
+
+input {
+  border: 1px solid #ddd0d2;
+  background: #FFFCFA;
+  padding: 5px;
+  width: calc(100% - 270px);
+  font-size: 1em;
+  text-align: center;
+}
+
+button {
+  background: #FFABAB;
+  border: 1px solid #FF9C9C;
+  padding: 5px;
+  color: #FFFCFA;
+  width: 250px;
+  font-size: 1em;
+  cursor: pointer;
+}
