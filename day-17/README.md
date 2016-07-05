@@ -51,27 +51,29 @@ names("George Washington, John Adams, Kanye West")
       }
     }
     ```
+      - `'jsonp'`
+        - always set the `dataType` to `'jsonp'` when `crossorigin` requests are an issue. you will need this for tonight's homework.
     - see below for link to settings documentation
 - API - application interface
-  - ususally refers to the way i can interface / interact with a an applications data
+  - usually refers to the way i can interface / interact with a an applications data
   - many web applications make their data publicly available through a JSON API
-- JSON -JavaScript Object Notation
-  - keys are always in double quotes
-  - JSON does NOT ALLOW trailing commas
-  ```js
-  //js
-  {
-    name: 'Jess Scheuring',
-    age: 32,
-  }
-  // json
-  {
-    "name": "Jess Scheuring",
-    "age": 32
-  }
-  ```
-  - `'jsonp'`
-    - always set the `dataType` to `'jsonp'` when `crossorigin` requests are an issue. you will need this for tonight's homework.
+- JSON - JavaScript Object Notation
+  - a way of passing data around the internet, using JS objects and arrays.
+  - JUST LIKE JS objects! except:
+    - keys are always in double quotes
+    - JSON does NOT ALLOW trailing commas
+    ```js
+    //js
+    {
+      name: 'Jess Scheuring',
+      age: 32,
+    }
+    // json
+    {
+      "name": "Jess Scheuring",
+      "age": 32
+    }
+    ```
 
 ## Resources
 - [The Event Loop video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) (until minute 17)

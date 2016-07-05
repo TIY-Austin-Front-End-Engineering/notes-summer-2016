@@ -19,3 +19,6 @@
 * [Day 12 - location.hash, Loops, forEach, filter, map reduce](/day-12)
 * [Day 13 - forEach, filter, map, reduce, jquery](/day-13)
 * [Day 14 - gh-pages, SPAs, data attribute](/day-14)
+
+### Week 4: AJAX, Constructors and Prototypes
+* [Day 17 - AJAX GET](/day-17)
