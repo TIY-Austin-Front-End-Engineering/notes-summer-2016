@@ -23,29 +23,29 @@ console.log('hi');
  // $.ajax({
  //   url: 'http://tiny-za-server.herokuapp.com/collections/unicorns',
  //   type: 'POST',
- //   dataType: 'json',
  //   success: function(response) {
  //     console.log(response);
  //   },
- //   data: {
+ //   contentType: 'application/json',
+ //   data: JSON.stringify({
  //     "name": "Joey",
  //     "color": "white",
- //     "powers": ["healing"],
+ //     "powers": ["healing", "healing"],
  //     "last": false
- //   }
+ //   })
  // });
 
 
  // $.ajax({
  //   url: 'http://tiny-za-server.herokuapp.com/collections/unicorns/577d303969837d0300d190fc',
  //   type: 'PUT',
- //   dataType: 'json',
+ //   contentType: 'application/json',
  //   success: function(response) {
  //     console.log(response);
  //   },
- //   data: {
+ //   data: JSON.stringify({
  //     color: 'turquoise',
- //   }
+ //   })
  // });
 
  console.log($('div').data());
