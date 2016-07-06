@@ -22,3 +22,4 @@
 
 ### Week 4: AJAX, Constructors and Prototypes
 * [Day 17 - AJAX GET](/day-17)
+* [Day 18 - AJAX POST PUT DELETE](/day-18)
