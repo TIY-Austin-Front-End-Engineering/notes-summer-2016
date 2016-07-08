@@ -4,7 +4,7 @@ var students = [
   'Caryn',
   'Coop',
   'Jonny',
-  'Dan',
+  // 'Dan',
   'Gabe',
   // 'Shawn',
   'Ben',
