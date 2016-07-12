@@ -1,0 +1,14 @@
+{
+  "name": "npm-practice",
+  "version": "1.0.0",
+  "description": "'this is just practice'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicerhugs",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

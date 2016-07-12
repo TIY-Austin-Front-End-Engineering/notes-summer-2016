@@ -3,7 +3,7 @@ var students = [
   'Shannon',
   'Caryn',
   'Coop',
-  'Jonny',
+  // 'Jonny',
   // 'Dan',
   'Gabe',
   // 'Shawn',
