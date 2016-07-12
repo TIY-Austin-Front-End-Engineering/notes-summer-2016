@@ -24,7 +24,9 @@
 - Stub out some data
 - Start writing our code
   - created basic layouts with html (and css)
+  - write javascript in the entry.js file. move 'discrete' features to their own modules as you are able.
   - install dependencies as they come up : `npm install --save <packageName>`
-  - check my code every step of the way as soon as possible, come up with hypothesis about what i'm going to see, and troubleshoot when that doesn't happen
+  - check code every step of the way as soon as possible, come up with hypothesis about what you expect to see, and troubleshoot when that doesn't happen
+  - to create "global variables", but modularly, you can create a module for that data (for example a "session"), and import it anywhere you need it.
 
 ## Resources

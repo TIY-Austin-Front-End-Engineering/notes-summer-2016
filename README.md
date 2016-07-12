@@ -27,4 +27,5 @@
 * [Day 20 - Constructors and Prototypes](/day-20)
 
 ### Week 5: Backbone
-* [Day 21 - Build Tools, NPM, ES6, Underscore](/day-21)
+* [Day 21 - Build Tools, NPM, ES6](/day-21)
+* [Day 22 - Review](/day-22)
