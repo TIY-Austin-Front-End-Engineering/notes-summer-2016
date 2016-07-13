@@ -20,7 +20,7 @@
     "watch-scripts": "watchify app/scripts/entry.js -d -v --outfile dist/main.js",
     "watch-assets": "onchange 'app/assets/**/*.js' -- npm run build-assets",
     "watch": "parallelshell 'npm run watch-html' 'npm run watch-assets' 'npm run watch-sass' 'npm run watch-scripts'",
-    "dev-server-start": "http-server ./dist",
+    "dev-server-start": "echo '+++++++ YOUR SERVER IS STARTING UP! ++++++' && http-server ./dist",
     "dev-server-watch": "npm run dev-server-start && onchange 'dist/**/*.*' -- npm run dev-server-start",
     "start": "npm run build && parallelshell 'npm run watch' 'npm run dev-server-watch'",
     "prebuild": "if [ ! -d app ]; then mkdir app; fi && if [ ! -f app/index.html ]; then printf '<!DOCTYPE html>%s\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title></title>\n\t\t<link media=\"screen\" href=\"main.css\" rel=\"stylesheet\"/>\n\t</head>\n\t<body>\n\n\t\t<script src=\"main.js\" charset=\"utf-8\"></script>\n\t</body>\n</html>' >> app/index.html; fi && if [ ! -d app/scripts ]; then mkdir app/scripts; fi && if [ ! -f app/scripts/entry.js ]; then touch app/scripts/entry.js; fi && if [ ! -d app/scss ]; then mkdir app/scss; fi && if [ ! -f app/scss/main.scss ]; then touch app/scss/main.scss; fi && if [ ! -d app/assets ]; then mkdir app/assets; fi",
