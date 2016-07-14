@@ -30,3 +30,4 @@
 * [Day 21 - Build Tools, NPM, ES6](/day-21)
 * [Day 22 - Review](/day-22)
 * [Day 23 - Underscore, Backbone](/day-23)
+* [Day 24 - Backbone Cont'd](/day-24)
