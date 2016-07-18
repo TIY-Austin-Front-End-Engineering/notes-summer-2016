@@ -1,7 +1,7 @@
 var students = [
   'Mark',
   'Shannon',
-  'Caryn',
+  // 'Caryn',
   'Coop',
   // 'Jonny',
   // 'Dan',
@@ -11,8 +11,8 @@ var students = [
   'James',
   'Travis',
   'Amanda',
-  'Christian',
-  'Louie',
+  // 'Christian',
+  // 'Louie',
   'Haley'
 ];
 

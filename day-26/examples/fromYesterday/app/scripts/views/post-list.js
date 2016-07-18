@@ -25,7 +25,7 @@ function renderPosts(postsCollection) {
     }
     postsCollection.on('add', renderSinglePost);
     postsCollection.forEach(renderSinglePost);
-    
+
     return $postList;
 }
 

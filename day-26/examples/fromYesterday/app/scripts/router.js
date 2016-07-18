@@ -3,11 +3,13 @@ import Backbone from 'backbone';
 
 import renderPostForm from './views/post-form';
 import $login from './views/login';
+import $signup from './views/signup';
 import $nav from './views/nav';
 import renderPosts from './views/post-list';
 import renderPost from './views/post';
 import Post from './models/post';
 import postsCollection from './collections/posts';
+import user from './models/username';
 
 // const Router = _.extend(Backbone.Router, {})
 const Router = Backbone.Router.extend({
@@ -15,6 +17,7 @@ const Router = Backbone.Router.extend({
   // value is a string that is the name of the function to call when we go to that route.
   routes: {
     login       : 'loginFunction',
+    signup      : 'signupFunction',
     posts       : 'postsFunction',
     'posts/new': 'newPostFunction',
     'posts/:id' : 'postFunction',
@@ -23,8 +26,15 @@ const Router = Backbone.Router.extend({
   loginFunction: function() {
     $('.container').empty().append($login);
   },
+  signupFunction: function() {
+    $('.container').empty().append($signup);
+  },
   postsFunction: function() {
-    postsCollection.fetch();
+    postsCollection.fetch({
+      headers: {
+        Authorization: 'Kinvey' + user.authtoken
+      }
+    });
     let $postList = renderPosts(postsCollection);
     $('.container').empty().append($nav).append($postList);
   },

@@ -1,8 +1,9 @@
 import Backbone from 'backbone';
+import settings from '../settings';
 
 const Post = Backbone.Model.extend({
   idAttribute: '_id',
-  urlRoot: 'https://tiny-za-server.herokuapp.com/collections/blogPosts',
+  urlRoot: `https://baas.kinvey.com/appdata/${settings.appId}/blogPosts`,
   defaults: {
     timestamp: new Date(),
     likes: 0
@@ -14,4 +15,5 @@ const Post = Backbone.Model.extend({
   }
 });
 
+window.Post = Post;
 export default Post;

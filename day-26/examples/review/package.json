@@ -1,0 +1,16 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "jquery": "^3.1.0",
+    "underscore": "^1.8.3"
+  }
+}
