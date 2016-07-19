@@ -2,7 +2,9 @@ import Backbone from 'backbone';
 
 const PostDetailView = Backbone.View.extend({
   initialize: function(id) {
-    console.log(id);
+    // get the model from the collection or create it if necessary,
+    // fetch the model
+    // listen to the model for changes and re-run render when it is successful
   },
   tagName: 'article',
   className: 'post-detail',
