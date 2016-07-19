@@ -31,3 +31,7 @@
 * [Day 22 - Review](/day-22)
 * [Day 23 - Underscore, Backbone](/day-23)
 * [Day 24 - Backbone Cont'd](/day-24)
+
+### Week 6: BaaS, Authentication, Backbone Views
+* [Day 26 - BaaS, Authentication](/day-26)
+* [Day 27 - Backbone Views](/day-27)
