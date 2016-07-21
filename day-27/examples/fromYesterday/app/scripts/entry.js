@@ -15,7 +15,6 @@ $(document).ajaxSend(function(evt, xhrAjax, jqueryAjax) {
     xhrAjax.setRequestHeader('Authorization', 'Kinvey ' + session.get('authtoken'));
   } else {
     xhrAjax.setRequestHeader('Authorization', 'Basic ' + settings.basicAuth);
-
   }
   console.log('ajax send function ', arguments);
 });

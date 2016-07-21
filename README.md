@@ -29,9 +29,11 @@
 ### Week 5: Backbone
 * [Day 21 - Build Tools, NPM, ES6](/day-21)
 * [Day 22 - Review](/day-22)
-* [Day 23 - Underscore, Backbone](/day-23)
-* [Day 24 - Backbone Cont'd](/day-24)
+* [Day 23 - Underscore, Backbone Models](/day-23)
+* [Day 24 - Backbone Models, Collections](/day-24)
 
 ### Week 6: BaaS, Authentication, Backbone Views
 * [Day 26 - BaaS, Authentication](/day-26)
 * [Day 27 - Backbone Views](/day-27)
+* [Day 28 - Backbone Views](/day-27)
+* [Day 29 - Data Store, Group Project/Agile](/day-27)

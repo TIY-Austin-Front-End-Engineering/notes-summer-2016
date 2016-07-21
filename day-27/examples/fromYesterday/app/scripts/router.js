@@ -2,16 +2,11 @@ import $ from 'jquery';
 import Backbone from 'backbone';
 
 import renderPostForm from './views/post-form';
-import $login from './views/login';
 import LoginView from './views/loginView';
 import $signup from './views/signup';
 import $nav from './views/nav';
-import renderPosts from './views/post-list';
 import PostsView from './views/postsView';
-import renderPost from './views/post';
-import Post from './models/post';
 import PostDetailView from './views/postDetailView';
-import postsCollection from './collections/posts';
 import user from './models/username';
 import settings from './settings';
 
