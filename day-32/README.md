@@ -39,6 +39,12 @@
 	- every react component needs a `render` function
 		- the `render` function must return JSX - which looks just like html!
 		- you can embed javascript values directly in your JSX by wrapping them in `{}`
+	- React components live in the 'shadow' DOM or 'virtual' DOM - they aren't in the REAL DOM!
+		- this is for performance improvements, to make sure we only actually re-draw the DOM when something actually changes in it.
+		- the implication of this is that we should never interact directly with the REAL DOM when we use react.
+			-	Thus, no more `jquery` dom manipulation or directly accessing the `document`.
+			- Instead, react introduces the idea of a `ref` attribute and `this.refs`, which provide us with direct access to the DOM elements a JSX component _refers_ to.
+				- `<input ref="username" />` and `this.refs === {username: inputEl}`
 - React Router
 	- is actually just a react component that someone else built!
 	- unlike other imported packages we've used in the past, react-router doesn't have a `default` export - only named ones
