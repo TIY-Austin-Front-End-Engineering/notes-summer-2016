@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif; }
+
+.modal-container {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20% 0 0; }
+
+.modal {
+  height: 75%;
+  width: 80%;
+  margin: 0 auto;
+  background: white;
+  overflow: scroll; }
+
+.post-img img {
+  border-radius: 5px; }
+
+.user-profile {
+  border: solid 1px black; }
+  .user-profile figure, .user-profile .user-details {
+    float: left; }
+  .user-profile::after {
+    content: '';
+    clear: both;
+    display: block; }
+
+/*# sourceMappingURL=main.css.map */
