@@ -47,7 +47,7 @@ Virtual/Shadow DOM
 - rendering lists of things
   - inside the render function, but before the return statement, you can create variables, run code, etc, but you should NEVER `setState` here.
   - React render functions are smart enough to render arrays!
-  - Therefore we can map over and array of data in our render function (such as we have in props or state) and create a new array of JSX elements or React Components which we will actually render. 
+  - Therefore we can map over and array of data in our render function (such as we have in props or state) and create a new array of JSX elements or React Components which we will actually render.
 
 ## Resources
 - [lifecycle methods](https://facebook.github.io/react/docs/component-specs.html)

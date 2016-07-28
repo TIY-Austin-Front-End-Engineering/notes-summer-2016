@@ -2,6 +2,15 @@ import React from 'react';
 import $ from 'jquery';
 
 const BlogPost = React.createClass({
+  fetch: function(id) {
+    $.ajax({
+      type: 'GET',
+      url: `http://tiny-za-server.herokuapp.com/collections/blogPosts/${id}`,
+      success: (data) => {
+        this.setState(data)
+      }
+    })
+  },
   getInitialState: function() {
     return {
       timestamp: '',
@@ -12,13 +21,12 @@ const BlogPost = React.createClass({
     }
   },
   componentDidMount: function() {
-    $.ajax({
-      type: 'GET',
-      url: `http://tiny-za-server.herokuapp.com/collections/blogPosts/${this.props.params.postId}`,
-      success: (data) => {
-        this.setState(data)
-      }
-    })
+    this.fetch(this.props.params.postId);
+  },
+  componentWillReceiveProps: function(nextProps) {
+    if (nextProps.params.postId !== this.props.params.postId) {
+      this.fetch(nextProps.params.postId);
+    }
   },
   render: function() {
     return (
