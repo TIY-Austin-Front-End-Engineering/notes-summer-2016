@@ -42,3 +42,7 @@
 * Day 31 - Review/Rest
 * [Day 32 - React Intro: Setup, component basics, router basics](/day-32)
 * [Day 33 - React Cont'd: Router, Component Lifecycle, Ajax](/day-33)
+* [Day 34 - React Cont'd: Using a Store with React](/day-34)
+
+### Week 8: React and Testing
+* [Day 36 - Index Route, React State](/day-36)
