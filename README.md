@@ -45,4 +45,4 @@
 * [Day 34 - React Cont'd: Using a Store with React](/day-34)
 
 ### Week 8: React and Testing
-* [Day 36 - Index Route, React State](/day-36)
+* [Day 36 - Index Route, React State (like button 4 ways)](/day-36)
