@@ -46,3 +46,4 @@
 
 ### Week 8: React and Testing
 * [Day 36 - Index Route, React State (like button 4 ways)](/day-36)
+* [Day 37 - Intro to Unit Testing](/day-37)
