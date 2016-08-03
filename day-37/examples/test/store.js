@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import store from '../../app/scripts/store';
+import store from '../app/scripts/store';
 
 describe('store module', function() {
   it('should exist', () => {

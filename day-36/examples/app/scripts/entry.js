@@ -10,6 +10,7 @@ import UnicornWithStore from './components/UnicornWithStore';
 
 const App = React.createClass({
   render: function() {
+    console.log(this.props);
     return (
       <div>
         <nav>
