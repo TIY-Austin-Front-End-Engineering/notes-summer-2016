@@ -1,6 +1,6 @@
 [Table of Contents](/README.md)
 
-# Day 37 - Recursion, Writing Errors, Promises
+# Day 37 - Recursion, Writing Errors
 
 ## Review
 - how to test listening to the model for changes
