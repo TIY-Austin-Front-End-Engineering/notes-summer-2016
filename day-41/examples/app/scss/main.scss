@@ -1,0 +1,24 @@
+@import 'slider';
+@import 'meta-info';
+body {
+  margin: 0;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.box:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.box:hover:after {
+    width: 100%;
+    background: blue;
+}

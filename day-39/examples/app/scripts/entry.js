@@ -54,3 +54,6 @@ function getCategoriesWithQuestions(categories) {
 
 getCategories()
 .then(getCategoriesWithQuestions)
+
+
+window.navigator.vibrate(5000);
